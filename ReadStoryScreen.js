@@ -17,17 +17,10 @@ export default class App extends React.Component {
         </TouchableOpacity>
 
         <Text style={styles.displayText}>
-          😞 Oops, it seems that this screen is not ready to show you yet. 😞
+          Oops, it seems that this screen is not ready to show you yet.
           You can read stories in this screen in the upcoming versions of this
           app.
         </Text>
-
-        <Text style={styles.displayText}>
-          But for now, you can read some moral stories by just pasting this link
-          in a new tab - " https://wealthygorilla.com/best-short-moral-stories/
-          " Hope, you will love !
-        </Text>
-       
       </View>
     );
   }
